@@ -12,7 +12,7 @@
 [CIFAR100]: http://www.cs.toronto.edu/~kriz/cifar-100-python.tar.gz
 [Tiny-ImageNet]: http://cs231n.stanford.edu/tiny-imagenet-200.zip
 
-**Note: **During runtime, the code will automatically download the dataset to the `data` folder.
+**Note:** During runtime, the code will automatically download the dataset to the `data` folder.
 
 ####  Pruning Results
 The pruning results of CIFAR10 and CIFAR100 can be found at '''./Pruning_Results/'''.
