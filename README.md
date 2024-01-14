@@ -1,4 +1,4 @@
-## Code of DatasetPruner on Image Classification 
+## The Pytorch implementation of "Not All Data Matters: An End-to-End Adaptive Dataset Pruning Framework for Enhancing Model Performance and Efficiency". 
 
 #### Requirements
 
@@ -17,7 +17,7 @@
 ####  Pruning Results
 The pruning results of CIFAR10 and CIFAR100 can be found at '''./Pruning_Results/'''.
 
-One can directly use it to select samples from training set.
+Researchers can directly use it to construct the pruned training set in an offline manner.
 
 #### Using Pruned Datasets to Train models
  ```--gpu```, the GPU used, the default is 0
