@@ -30,6 +30,6 @@ Researchers can directly use it to construct the pruned training set in an offli
 
 #### Example
 Training ResNet18 using pruned dataset with 90% compression ratio 
-> python evaluate_mask.py --file_name 'mask_index_90' --model 'ResNet18' --dataset 'CIFAR10' --gpu '0,1' --seed 10
+``` python evaluate_mask.py --file_name 'mask_index_90' --model 'ResNet18' --dataset 'CIFAR10' --gpu '0,1' --seed 10```
 
-To prune datasets with expected compression ratios, please refer to README in './Prune_Dataset/'
+**To prune datasets with expected compression ratios, please refer to README in './Prune_Dataset/'**
