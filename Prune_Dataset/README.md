@@ -1,4 +1,4 @@
-## The example code of DatasetPruner on CIFAR10/100 
+## The Pytorch implementation code of AdaPruner on CIFAR10/100 
 
 #### Requirements
 
@@ -10,6 +10,9 @@
 
 [CIFAR10]: http://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
 [CIFAR100]: http://www.cs.toronto.edu/~kriz/cifar-100-python.tar.gz
+[CIFAR10]
+
+[CIFAR100]
 
 #### Train DatasetPruner for pruned datasets
 
@@ -19,9 +22,9 @@
 
 ```--dataset```, the dataset used, the default is CIFAR10
 
-```--compression_rate```, the expected compression rate, default is 0.9
+```--compression_rate```, the expected compression rate, default is 0.9 (90%)
 
-```--resume```, specify to use warm-up mechanism
+```--resume```, specify to use the warm-up mechanism
 
 
 #### Example
