@@ -8,16 +8,18 @@ The Pytorch implementation of "Not All Data Matters: An End-to-End Adaptive Data
 
 ## Datasets
 
-[CIFAR10]: http://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
-[CIFAR100]: http://www.cs.toronto.edu/~kriz/cifar-100-python.tar.gz
-[CIFAR10]
+[CIFAR-10]: http://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
+[CIFAR-100]: http://www.cs.toronto.edu/~kriz/cifar-100-python.tar.gz
+[CIFAR-10]
 
-[CIFAR100]
+[CIFAR-100]
+
+Source: https://www.cs.toronto.edu/~kriz/cifar.html
 
 **Note:** During runtime, the code will **automatically** download the datasets to the `data` folder.
 
 ##  Pruning Results
-The pruning results of CIFAR10 and CIFAR100 can be found at '''./Pruning_Results/'''.
+The pruning results of CIFAR-10 and CIFAR-100 can be found at '''./Pruning_Results/'''.
 
 Researchers can directly use it to construct the pruned training set in an offline manner.
 
