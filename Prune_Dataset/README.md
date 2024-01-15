@@ -1,4 +1,4 @@
-## The Pytorch implementation code of AdaPruner to prune CIFAR10/100 datasets
+## The Pytorch implementation code of AdaPruner to prune CIFAR-10/100 datasets
 
 ### Requirements
 
@@ -8,11 +8,13 @@
 
 ### Datasets
 
-[CIFAR10]: http://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
-[CIFAR100]: http://www.cs.toronto.edu/~kriz/cifar-100-python.tar.gz
-[CIFAR10]
+[CIFAR-10]: http://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
+[CIFAR-100]: http://www.cs.toronto.edu/~kriz/cifar-100-python.tar.gz
+[CIFAR-10]
 
-[CIFAR100]
+[CIFAR-100]
+
+Source:  https://www.cs.toronto.edu/~kriz/cifar.html
 
 ### Train DatasetPruner for pruned datasets
 
