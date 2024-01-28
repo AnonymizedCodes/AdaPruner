@@ -1,5 +1,5 @@
 # AdaPruner
-The Pytorch implementation of "Not All Data Matters: An End-to-End Adaptive Dataset Pruning Framework for Enhancing Model Performance and Efficiency"
+The Pytorch implementation of "Not All Data Matters: An End-to-End Adaptive Dataset Pruning Framework"
 ## Requirements
 
 * python >= 3.6
