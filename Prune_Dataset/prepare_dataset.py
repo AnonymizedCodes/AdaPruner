@@ -55,7 +55,7 @@ def prepare_dataloader(dataset_name,batchsize):
         transforms.ToTensor(),
         transforms.Normalize(*DATASET_NORMALIZATION[dataset_name]),
     ])
-    root = '../../run2/AdvMask/data/'
+    root = '../data/'
     if dataset_name == 'CIFAR10':
         trainset = torchvision.datasets.CIFAR10(
             root=root, train=True, download=True, transform=transform_train)
